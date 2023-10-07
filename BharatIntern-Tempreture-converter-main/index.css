@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+
+.bg-color{
+    background-color:#0f1010;
+
+}
+.heading{
+    font-family:"Roboto";
+    color:#0cf5f5;
+    font-weight:bold;
+}
+.celcious-text{
+    color:#ffffff;
+    font-weight:700;
+}
+.fahrenheit-text{
+    color:#ffffff;
+    font-weight:700;
+}
+.input-group {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.input-group label {
+    width: 140px;
+    font-size: 20px;
+}
+
+.input-group input {
+    flex: 1;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.button-group {
+    display: flex;
+    justify-content: center;
+    padding:5%;
+}
+
+.button-group button1{
+    
+    margin: 0 0.5rem;
+    border: none;
+    border-radius: 35px;
+    background-color:#0beb12;
+    color: white;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:10px;
+    padding-right:10px;
+    font-size:18px;
+    font-weight:bold;
+}
+.button-group button2{
+    
+    margin: 0 0.5rem;
+    border: none;
+    border-radius: 35px;
+    background-color:#fc7c0c;
+    color: white;
+    font-weight:bold;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:10px;
+    padding-right:10px;
+    font-size:18px;
+}
+.button-group button3{
+    
+    margin: 0 0.5rem;
+    border: none;
+    border-radius: 35px;
+    background-color:#fa1010;
+    color: white;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:10px;
+    padding-right:10px;
+    font-size:18px;
+    font-weight:bold;
+}
+
+.button-group button1:hover{
+    background-color: #0cf5f5;
+}
+.button-group button2:hover{
+    background-color: #0cf5f5;
+}
+.button-group button3:hover{
+    background-color: #0cf5f5;
+}
